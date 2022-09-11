@@ -101,3 +101,44 @@ a {
 .bi-dash-lg {
     color: green;
 }
+
+/**
+* ! STYLES FOR LABEL AND BUTTONS
+**/
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.homeBtn {
+    background-color: #212529;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.bi-x-lg {
+    color: red;
+    font-weight: bold;
+}
+
+/**
+* ! SHOPPING CART
+**/
+
+.shopping-cart {
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    justify-content: center;
+    gap: 15px;
+}
+
+.cart-item {
+    border-radius: 5px;
+    border: 2px solid #212529;
+    display: flex;
+}

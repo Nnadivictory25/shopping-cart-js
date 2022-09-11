@@ -2,7 +2,6 @@ let shop = document.querySelector('#shop')
 
 
 
-
 // basket to store items added to cart
 // stored in the localStorage and retrieved from it too
 // below staatement means = if the objects exist in the localStorage then retrieve it , if not return an empty array
