@@ -57,6 +57,7 @@ a {
     grid-template-columns: repeat(4,223px);
     gap: 20px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 1000px) {
@@ -73,6 +74,11 @@ a {
 .item {
     border: 2px solid #212529;
     border-radius: 4px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 2px 2px 0 0;
 }
 
 .details {
@@ -111,7 +117,7 @@ a {
     margin-bottom: 20px;
 }
 
-.homeBtn {
+.homeBtn,.checkout,.removeAll {
     background-color: #212529;
     color: white;
     border-radius: 3px;
@@ -119,6 +125,13 @@ a {
     padding: 6px;
     cursor: pointer;
     margin-top: 10px;
+}
+
+.removeAll {
+    background-color: red;
+}
+.checkout {
+    background-color: green;
 }
 
 .bi-x-lg {
@@ -141,4 +154,24 @@ a {
     border-radius: 5px;
     border: 2px solid #212529;
     display: flex;
+}
+
+.title-price-x {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 195px;
+}
+
+.title-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item-price {
+    background-color: #212529;
+    color: #fff;
+    border-radius: 4px;
+    padding: 4px 6px;
 }
